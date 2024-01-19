@@ -1,0 +1,9 @@
+@import '../../../../styles/base.scss';
+
+.table-wrapper{
+    width: 100%;
+    background-color: $secondary-color;    
+    th{
+        text-align: left;
+    }
+}
