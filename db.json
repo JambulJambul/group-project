@@ -1,5 +1,13 @@
 {
-    "posts":[
-        
-    ]
+  "posts": [
+    {
+      "id": "6baf",
+      "roomMaster": "asfasf",
+      "schedule": "2024-02-07",
+      "location": "asfasf",
+      "description": "asfafs",
+      "duration": "aasfas",
+      "contactPhone": "asfafs"
+    }
+  ]
 }

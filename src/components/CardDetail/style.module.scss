@@ -1,0 +1,31 @@
+@import "../../styles/base.scss";
+
+.box-card {
+  @include flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 60%;
+  border: 10px solid $secondary-color;
+  border-radius: 10px;
+}
+
+.box-text {
+  @include flex;
+  gap: 20px;
+  max-width: 850px;
+  align-items: center;
+  background-color: $secondary-color;
+  border-radius: 10px;
+}
+
+.box-content {
+  @include flex;
+  gap: 20px;
+}
+
+.box-area {
+  @include flex;
+  min-width: 415px;
+  background-color: $secondary-color;
+  border-radius: 10px;
+}
