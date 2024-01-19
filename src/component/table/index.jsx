@@ -85,7 +85,7 @@ const index = () => {
               {data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map(
                 (
                   item,
-                  index // 'index' is the second parameter in the map function
+                  index
                 ) => (
                   <TableRow key={item.id} sx={{ "&:last-child td, &:last-child th": { border: 0 } }}>
                     <TableCell>{page * rowsPerPage + index + 1}</TableCell>
