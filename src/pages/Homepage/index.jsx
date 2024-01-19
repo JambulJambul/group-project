@@ -11,11 +11,10 @@ const Homepage = () => {
   return (
     <>
       <div className={classes.wrapper}>
-        <Navbar />
         <div className={classes.content}>
           <h4>Home</h4>
           <Stack spacing={2} direction="row">
-            <Link>
+            <Link to={"/create-page"}>
               <Button variant="contained">Add Meet</Button>
             </Link>
           </Stack>

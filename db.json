@@ -1,22 +1,14 @@
 {
   "posts": [
     {
-      "id": "ec80",
-      "roomMaster": "asfafsas",
-      "schedule": 1705663680000,
-      "location": "asfafa",
-      "description": "asffasaf",
-      "duration": "asfasfafas",
-      "contactPhone": "fasfsa"
-    },
-    {
-      "id": "1c17",
-      "roomMaster": "asfafsas",
-      "schedule": "1/19/2024 6:28:00 PM",
-      "location": "asfafa",
-      "description": "asffasaf",
-      "duration": "asfasfafas",
-      "contactPhone": "fasfsa"
+      "id": "ee3c",
+      "roomMaster": "Hilman",
+      "schedule": "1/26/2024 4:43:00 PM",
+      "location": "Tangerang",
+      "description": "meeting",
+      "duration": "3 jam",
+      "contactPhone": "0128401202",
+      "googleMapsUrl": "https://www.google.com/maps/@-6.2391526,106.6536256,15.26z?entry=ttu"
     }
   ]
 }

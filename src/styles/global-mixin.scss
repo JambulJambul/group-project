@@ -1,8 +1,28 @@
 * {
-  margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
 }
 
 @mixin flex {
   display: flex;
+}
+
+@mixin directionX {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin directionY {
+  display: flex;
+  flex-direction: column;
 }

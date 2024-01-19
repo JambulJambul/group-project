@@ -5,7 +5,9 @@ import CardDetail from "../../components/CardDetail";
 
 import classes from "./style.module.scss";
 
-import callAPI from "../../domain/api";
+import { callAPI } from "../../domain/api";
+import Navbar from "../../component/navbar"
+import MapsGoogle from "../../components/MapsGoogle";
 
 const Detailpage = () => {
   const [detail, setDetail] = useState({});
@@ -31,6 +33,7 @@ const Detailpage = () => {
 
   return (
     <>
+    <Navbar></Navbar>
       <div className={classes["wrapper"]}>
         <h1>Meeting Details</h1>
         <CardDetail key={detail.id} data={detail} />

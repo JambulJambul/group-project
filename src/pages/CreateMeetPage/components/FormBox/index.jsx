@@ -3,7 +3,6 @@ import { Box, TextField, Button } from "@mui/material"
 import { callAPI } from "../../../../domain/api"
 import classes from './style.module.scss'
 
-
 const FormBox = () => {
     const {
         register,
@@ -63,6 +62,12 @@ const FormBox = () => {
                     <TextField id="outlined-basic" label="Contact Phone" variant="outlined"  {...register("contactPhone", { required: true })}
                         aria-invalid={errors.contactPhone ? "true" : "false"} />
                     {errors.contactPhone?.type === "required" && (
+                        <p role="alert">Contact phone is required</p>
+                    )}
+                    <br /><br />
+                    <TextField id="outlined-basic" label="Google Maps Url" variant="outlined"  {...register("googleMapsUrl", { required: true })}
+                        aria-invalid={errors.googleMapsUrl ? "true" : "false"} />
+                    {errors.googleMapsUrl?.type === "required" && (
                         <p role="alert">Contact phone is required</p>
                     )}
                     <br /><br />

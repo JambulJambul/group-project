@@ -1,8 +1,9 @@
-import { CardContent, Typography } from "@mui/material";
-
+import { CardContent, Typography, Stack } from "@mui/material";
+import MapsGoogle from "../MapsGoogle";
 import classes from "./style.module.scss";
 
 const CardDetail = ({ data }) => {
+  const url = data.googleMapsUrl;
   return (
     <>
       <CardContent className={classes["box-card"]}>
@@ -131,6 +132,7 @@ const CardDetail = ({ data }) => {
             {data.description}
           </Typography>
         </div>
+        <MapsGoogle data={url}/>
       </CardContent>
     </>
   );

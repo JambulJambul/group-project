@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Homepage from "./pages/Homepage/index.jsx";
 import Detailpage from "./pages/Detailpage/index.jsx";
+import CreateMeetPage from "./pages/CreateMeetPage/index.jsx"
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     path: "/detail/:id",
     element: <Detailpage />,
   },
+  {
+    path: "/create-page",
+    element: <CreateMeetPage />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

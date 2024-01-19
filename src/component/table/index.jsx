@@ -102,7 +102,7 @@ const index = () => {
                         <Button color="error" variant="contained" onClick={() => handleDelete(item.id)}>
                           Delete
                         </Button>
-                        <Link>
+                        <Link to={`detail/${item.id}`}>
                           <Button variant="contained">Detail</Button>
                         </Link>
                       </Stack>
