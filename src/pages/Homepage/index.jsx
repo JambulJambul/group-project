@@ -1,24 +1,28 @@
 import React from "react";
-import Component from "../../component/navbar/index";
+import Navbar from "../../component/navbar/index";
 import Table from "../../component/table/index";
 import classes from "./style.module.scss";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import Footer from "../../component/footer/footer";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
     <>
       <div className={classes.wrapper}>
-        <Component />
-        <div>
-          <div className={classes.content}>
-            <Stack spacing={2} direction="row">
+        <Navbar />
+        <div className={classes.content}>
+          <h4>Home</h4>
+          <Stack spacing={2} direction="row">
+            <Link>
               <Button variant="contained">Add Meet</Button>
-            </Stack>
-            <Table />
-          </div>
+            </Link>
+          </Stack>
+          <Table />
         </div>
       </div>
+      <Footer />
     </>
   );
 };

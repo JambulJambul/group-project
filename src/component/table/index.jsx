@@ -13,8 +13,7 @@ import { useState } from "react";
 import { callAPI } from "../../domain/api";
 import { useEffect } from "react";
 import TablePagination from "@mui/material/TablePagination";
-
-//
+import { Link } from "react-router-dom";
 
 const index = () => {
   const [data, setData] = useState([]);
@@ -52,6 +51,15 @@ const index = () => {
     setPage(0);
   };
 
+  const handleDelete = async (id) => {
+    try {
+      await callAPI(`/posts/${id}`, "DELETE");
+      fetchData();
+    } catch (error) {
+      console.error("Error deleting data:", error);
+    }
+  };
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -61,7 +69,7 @@ const index = () => {
       <div className={classes.container}>
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
-            <TableHead>
+            <TableHead sx={{ backgroundColor: "#DADDB1" }}>
               <TableRow>
                 <TableCell>No</TableCell>
                 <TableCell align="center">Room</TableCell>
@@ -80,7 +88,6 @@ const index = () => {
                   index // 'index' is the second parameter in the map function
                 ) => (
                   <TableRow key={item.id} sx={{ "&:last-child td, &:last-child th": { border: 0 } }}>
-                    {/* Calculate the row number considering the current page and rows per page */}
                     <TableCell>{page * rowsPerPage + index + 1}</TableCell>
                     <TableCell align="right" component="th" scope="row">
                       {item.roomMaster}
@@ -92,10 +99,12 @@ const index = () => {
                     <TableCell align="right">{item.contactPhone}</TableCell>
                     <TableCell className={classes.flex} align="right">
                       <Stack spacing={1} direction="row">
-                        <Button color="error" variant="contained">
+                        <Button color="error" variant="contained" onClick={() => handleDelete(item.id)}>
                           Delete
                         </Button>
-                        <Button variant="contained">Detail</Button>
+                        <Link>
+                          <Button variant="contained">Detail</Button>
+                        </Link>
                       </Stack>
                     </TableCell>
                   </TableRow>
