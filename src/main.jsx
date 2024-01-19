@@ -6,11 +6,12 @@ import {
 } from "react-router-dom";
 
 import Homepage from "./pages/Homepage/index.jsx";
+import CreateMeetPage from "./pages/CreateMeetPage/index.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />,
+    element: <CreateMeetPage />,
   },
 ]);
 

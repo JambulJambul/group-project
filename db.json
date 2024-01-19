@@ -1,5 +1,22 @@
 {
-    "posts":[
-        
-    ]
+  "posts": [
+    {
+      "id": "ec80",
+      "roomMaster": "asfafsas",
+      "schedule": 1705663680000,
+      "location": "asfafa",
+      "description": "asffasaf",
+      "duration": "asfasfafas",
+      "contactPhone": "fasfsa"
+    },
+    {
+      "id": "1c17",
+      "roomMaster": "asfafsas",
+      "schedule": "1/19/2024 6:28:00 PM",
+      "location": "asfafa",
+      "description": "asffasaf",
+      "duration": "asfasfafas",
+      "contactPhone": "fasfsa"
+    }
+  ]
 }

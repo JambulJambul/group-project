@@ -1,0 +1,13 @@
+@import '../../styles/base.scss';
+
+.page-wrapper{
+    min-height: 100vh;
+    padding: 25px 25px;
+    background-color: $primary-color;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
