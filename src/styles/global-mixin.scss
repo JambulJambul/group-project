@@ -1,9 +1,8 @@
-@mixin directionX {
-  display: flex;
-  flex-direction: row;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@mixin directionY {
+@mixin flex {
   display: flex;
-  flex-direction: column;
 }

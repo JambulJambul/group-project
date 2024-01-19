@@ -1,16 +1,27 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:3030";
+const baseUrl = "http://localhost:3000";
 
-export const callAPI = async (endpoint, method, data) => {
-  try {
-    const response = await axios({
-      method,
-      url: `${baseURL}${endpoint}`,
-      data,
-    });
-    return response.data;
-  } catch (error) {
-    throw error;
-  }
+const callAPI = async (
+  endpoint,
+  method,
+  headers = {},
+  params = {},
+  data = {}
+) => {
+  console.log(endpoint);
+  const options = {
+    url: baseUrl + endpoint,
+    method,
+    headers,
+    params,
+    data,
+  };
+
+  return axios(options).then((response) => {
+    const responseAPI = response?.data;
+    return responseAPI;
+  });
 };
+
+export default callAPI;
