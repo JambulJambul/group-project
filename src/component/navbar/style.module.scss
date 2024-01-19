@@ -1,0 +1,16 @@
+@import "../../styles/base.scss";
+
+.container {
+  width: 100%;
+  background-size: cover;
+
+  @include directionX;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}

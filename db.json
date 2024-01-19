@@ -1,5 +1,103 @@
 {
-    "posts":[
-        
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    },
+    {
+      "id": "1",
+      "roomMaster": "R123",
+      "schedule": "Senin, 1 Januari 2024",
+      "location": "Jln. qwertyuio",
+      "description": "Openning Meeting",
+      "duration": "10.00 - 12.00",
+      "contactPhone": "08123456789"
+    }
+  ]
 }
